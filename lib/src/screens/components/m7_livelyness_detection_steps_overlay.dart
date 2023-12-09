@@ -123,12 +123,12 @@ class M7LivelynessDetectionStepOverlayState
               Expanded(
                 flex: _currentIndex + 1,
                 child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: const BorderRadius.only(
+                  decoration: const BoxDecoration(
+                    borderRadius: BorderRadius.only(
                       topRight: Radius.circular(20),
                       bottomRight: Radius.circular(20),
                     ),
-                    color: Colors.green.shade800,
+                    color: Color(0xff521c78),
                   ),
                 ),
               ),
